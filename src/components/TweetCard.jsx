@@ -28,10 +28,10 @@ const TweetCard = () => {
   return (
     <>
         <div className={styles.hero} >
-          <h1>SIMP CARD </h1>
+          <h1>CREA TÚ SIMP CARD</h1>
           <section className={styles.content_img} ref={ref} >
             <picture className={styles.userImage} >
-              { avatar ? <img src={avatar} alt="avatar" /> : <UserImage/> }
+              { avatar ? <img src={avatar} alt="sube tu foto para el simp card" /> : <UserImage/> }
             </picture>
           </section>
         </div>
@@ -39,9 +39,9 @@ const TweetCard = () => {
           <div className={styles.container} >
             <form>
               <span>
-                <p>Tu mejor pose:</p>
+                <h2>Tu mejor pose:</h2>
                 <label htmlFor="file" className={styles.div_file} >
-                  <label htmlFor="file">Añadir Imagen</label>
+                  <label htmlFor="file">Añadir Foto</label>
                   <input id='file' type="file" onChange={uploadAvatar} accept='.png, .jpg, .svg, .jepg'/>
                   <Upload />
                 </label>

@@ -85,6 +85,10 @@
   flex-grow: 1;
 }
 
+.formInputs form span h2 {
+  font-size: 16px;
+}
+
 .div_file{
   display: flex;
   align-items: center;
