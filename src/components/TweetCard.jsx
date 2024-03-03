@@ -52,6 +52,7 @@ const TweetCard = () => {
             </form>
           </div>
         </div>
+          <div className={styles.copy} >© - richarodz</div>
     </>
   )
 }
