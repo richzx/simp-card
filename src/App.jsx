@@ -8,6 +8,7 @@ function App() {
     <>
       <div className={styles.background} >
         <TweetCard />
+        <p>richarodz</p>
       </div>
     </>
   )
